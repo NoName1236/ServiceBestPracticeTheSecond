@@ -13,8 +13,7 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 public class DownloadTask extends AsyncTask<String,Integer,Integer> {
-    //给后台任务的字符串参数，进度数据单位，执行结果
-
+    //String给后台任务的字符串参数，Integer整型数据表示进制显示单位，Integer整型反馈执行结果
     //表示数据下载状态的四个常量
     public static final int TYPE_SUCCESS = 0;
     public static final int TYPE_FAILED = 1;
